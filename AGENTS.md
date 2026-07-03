@@ -18,6 +18,8 @@ This file defines the shared rules for every AI agent working in the Forge repos
 - Prefer small, readable changes with a clear purpose.
 - Keep component APIs simple and reusable.
 - Update docs and tests when behavior changes.
+- Maintain readable contrast and a clear visual hierarchy in UI work.
+- Avoid washed-out text, over-dark hero cards, or competing focal points.
 
 ## Tech Stack Rules
 
@@ -49,3 +51,8 @@ This file defines the shared rules for every AI agent working in the Forge repos
 - The review agent should check for consistency, clarity, and maintainability.
 - Do not approve work that breaks naming, styling, or structure standards.
 - If a feature touches multiple areas, make sure docs and tests are updated too.
+
+## Handoff Rules
+
+- After review, a final communication agent should prepare the Conventional Commit message and the GitHub PR description.
+- PR descriptions should explain the change clearly, include context, and be easy for contributors to understand.
