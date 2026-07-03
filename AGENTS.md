@@ -13,6 +13,7 @@ This file defines the shared rules for every AI agent working in the Forge repos
 
 - Follow Conventional Commits for commit messages.
 - Use clear branch names that match the task type, such as `feat/`, `docs/`, `fix/`, `chore/`, or `refactor/`.
+- Pull the latest `origin/develop` before creating a new feature branch.
 - Keep changes scoped to the assigned task.
 - Do not rewrite unrelated files.
 - Prefer small, readable changes with a clear purpose.
