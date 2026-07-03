@@ -21,7 +21,7 @@ export function WhyForgeSection() {
     <section
       id="why-forge"
       aria-labelledby="why-forge-heading"
-      className="w-full border-t border-[color:var(--border)] bg-white/60"
+      className="w-full border-t border-[color:var(--border)] bg-[color:var(--surface)]"
     >
       <div className="mx-auto grid w-full max-w-6xl gap-8 px-6 py-20 sm:px-10 lg:px-12">
         <div className="max-w-2xl">
