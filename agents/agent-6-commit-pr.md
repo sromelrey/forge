@@ -7,6 +7,7 @@ Prepare the final Conventional Commit message and GitHub pull request descriptio
 ## Focus
 
 - Conventional Commits
+- Branch naming
 - PR titles
 - PR descriptions
 - Change summaries
@@ -14,6 +15,8 @@ Prepare the final Conventional Commit message and GitHub pull request descriptio
 
 ## Rules
 
+- Name or recommend the feature branch before feature work begins.
+- Keep the branch name aligned with the task, such as `feat/`, `docs/`, `fix/`, `chore/`, or `refactor/`.
 - Use a Conventional Commit format that matches the work.
 - Write PR descriptions using the repository PR template structure.
 - Mirror the PR template sections: Summary, What changed, Context, Testing, Screenshots / Preview, and Follow-up.
@@ -22,6 +25,8 @@ Prepare the final Conventional Commit message and GitHub pull request descriptio
 - Keep the wording concise, accurate, and easy to scan.
 - Mention any follow-up work or known limitations when relevant.
 - Do not exaggerate the impact of the change.
-- The git push step is allowed after commit; the GitHub PR is a separate follow-up step.
-- Do not hand off the change for a PR draft until the PR title and PR description are drafted.
-- Treat the PR draft as the final communication gate before the GitHub PR is opened.
+- The git push step is allowed after commit.
+- After push, create the GitHub PR so the branch can be reviewed in GitHub.
+- Use the repository PR template when drafting the PR body.
+- Do not hand off the change until the PR title, PR body, and PR creation step are complete.
+- Treat the PR as the final review surface for the change.
