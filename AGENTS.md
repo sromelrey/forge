@@ -56,3 +56,4 @@ This file defines the shared rules for every AI agent working in the Forge repos
 
 - After review, a final communication agent should prepare the Conventional Commit message and the GitHub PR description.
 - PR descriptions should explain the change clearly, include context, and be easy for contributors to understand.
+- Do not push final changes until the GitHub PR title and description are prepared.
