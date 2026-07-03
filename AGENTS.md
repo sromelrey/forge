@@ -21,6 +21,7 @@ This file defines the shared rules for every AI agent working in the Forge repos
 - Update docs and tests when behavior changes.
 - Maintain readable contrast and a clear visual hierarchy in UI work.
 - Avoid washed-out text, over-dark hero cards, or competing focal points.
+- Avoid dark full-width sections unless the text and cards remain clearly readable.
 
 ## Tech Stack Rules
 
