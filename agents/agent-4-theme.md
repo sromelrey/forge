@@ -23,6 +23,9 @@ Maintain visual consistency, theme tokens, and design-system rules.
 - Keep the primary hero content more prominent than decorative panels.
 - Avoid washed-out foreground text on light backgrounds.
 - Avoid overly heavy dark surfaces that overpower the main message.
+- Avoid dark full-width section backgrounds unless the content is intentionally reversed and fully readable.
+- If a section uses a dark background, make sure heading, body, and card contrast are clearly legible.
+- Make sure large supporting sections do not reduce contrast below the hero or primary content.
 - Make sure badges, chips, and pill elements remain readable at all sizes.
 - Check desktop and mobile balance before approving a visual pass.
 - Prefer one clear visual focal point instead of competing cards or sections.

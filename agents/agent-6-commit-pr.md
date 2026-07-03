@@ -19,6 +19,7 @@ Prepare the final Conventional Commit message and GitHub pull request descriptio
 - Keep the branch name aligned with the task, such as `feat/`, `docs/`, `fix/`, `chore/`, or `refactor/`.
 - Use a Conventional Commit format that matches the work.
 - Write PR descriptions using the repository PR template structure.
+- Mirror the PR template sections: Summary, What changed, Context, Testing, Screenshots / Preview, and Follow-up.
 - Include a clear summary, what changed, context, testing, screenshots or preview notes, and follow-up items when relevant.
 - Include enough context for contributors and reviewers to understand the update quickly.
 - Keep the wording concise, accurate, and easy to scan.

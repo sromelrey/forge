@@ -1,6 +1,6 @@
 # Summary
 
-<!-- Briefly describe what this PR changes and why. -->
+<!-- Add a short summary of the change. -->
 
 ## What changed
 
@@ -10,7 +10,7 @@
 
 ## Context
 
-<!-- Add any background, design choices, or constraints that help reviewers understand the change. -->
+<!-- Add any background or decisions that help explain the change. -->
 
 ## Testing
 
@@ -18,9 +18,8 @@
 
 ## Screenshots / Preview
 
-<!-- Add screenshots or Storybook links if relevant. -->
+<!-- Add screenshots, Storybook links, or preview notes if relevant. -->
 
 ## Follow-up
 
-<!-- List any known limitations, future work, or related tasks. -->
-
+<!-- Add any future work or known limitations. -->

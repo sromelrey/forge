@@ -13,6 +13,7 @@ This file defines the shared rules for every AI agent working in the Forge repos
 
 - Follow Conventional Commits for commit messages.
 - Use clear branch names that match the task type, such as `feat/`, `docs/`, `fix/`, `chore/`, or `refactor/`.
+- Pull the latest `origin/develop` before creating a new feature branch.
 - Name the branch before starting feature work.
 - Create feature branches from `develop` and open pull requests back into `develop`.
 - Do not push reviewable changes directly to `develop`.
@@ -24,6 +25,7 @@ This file defines the shared rules for every AI agent working in the Forge repos
 - Update docs and tests when behavior changes.
 - Maintain readable contrast and a clear visual hierarchy in UI work.
 - Avoid washed-out text, over-dark hero cards, or competing focal points.
+- Avoid dark full-width sections unless the text and cards remain clearly readable.
 
 ## Tech Stack Rules
 
