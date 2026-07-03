@@ -4,6 +4,12 @@ const highlights = [
   "TypeScript + Tailwind",
 ];
 
+const stats = [
+  { label: "Focus", value: "Components" },
+  { label: "Target", value: "React + RN" },
+  { label: "Stack", value: "Next.js" },
+];
+
 export function HeroSection() {
   return (
     <section className="grid w-full gap-12 lg:grid-cols-[1.08fr_0.92fr] lg:gap-16">
@@ -49,6 +55,22 @@ export function HeroSection() {
             </li>
           ))}
         </ul>
+
+        <dl className="mt-10 grid max-w-xl gap-3 sm:grid-cols-3">
+          {stats.map((stat) => (
+            <div
+              key={stat.label}
+              className="rounded-2xl border border-[color:var(--border)] bg-white p-4 shadow-sm"
+            >
+              <dt className="font-mono text-[11px] uppercase tracking-[0.24em] text-zinc-500">
+                {stat.label}
+              </dt>
+              <dd className="mt-2 text-sm font-semibold text-zinc-950">
+                {stat.value}
+              </dd>
+            </div>
+          ))}
+        </dl>
       </div>
 
       <div className="flex items-center">

@@ -41,4 +41,12 @@ describe("HeroSection", () => {
       expect(within(list).getByText(highlight)).toBeTruthy();
     }
   });
+
+  it("shows the hero stats", () => {
+    render(<HeroSection />);
+
+    expect(screen.getAllByText("Components").length).toBeGreaterThan(0);
+    expect(screen.getByText("React + RN")).toBeTruthy();
+    expect(screen.getAllByText("Next.js").length).toBeGreaterThan(0);
+  });
 });
