@@ -21,5 +21,6 @@ Prepare the final Conventional Commit message and GitHub pull request descriptio
 - Keep the wording concise, accurate, and easy to scan.
 - Mention any follow-up work or known limitations when relevant.
 - Do not exaggerate the impact of the change.
-- Do not hand off for a final push until the PR title and PR description are drafted.
-- Treat the PR draft as the final communication gate before the branch is pushed.
+- The git push step is allowed after commit; the GitHub PR is a separate follow-up step.
+- Do not hand off the change for a PR draft until the PR title and PR description are drafted.
+- Treat the PR draft as the final communication gate before the GitHub PR is opened.
