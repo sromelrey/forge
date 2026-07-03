@@ -13,6 +13,10 @@ This file defines the shared rules for every AI agent working in the Forge repos
 
 - Follow Conventional Commits for commit messages.
 - Use clear branch names that match the task type, such as `feat/`, `docs/`, `fix/`, `chore/`, or `refactor/`.
+- Name the branch before starting feature work.
+- Create feature branches from `develop` and open pull requests back into `develop`.
+- Do not push reviewable changes directly to `develop`.
+- Use the reviewable branch flow for any change that should be inspected on GitHub.
 - Keep changes scoped to the assigned task.
 - Do not rewrite unrelated files.
 - Prefer small, readable changes with a clear purpose.
@@ -56,4 +60,5 @@ This file defines the shared rules for every AI agent working in the Forge repos
 
 - After review, a final communication agent should prepare the Conventional Commit message and the GitHub PR description.
 - PR descriptions should explain the change clearly, include context, and be easy for contributors to understand.
-- Do not push final changes until the GitHub PR title and description are prepared.
+- After push, create the GitHub PR so the change can be reviewed in GitHub.
+- Do not consider the workflow complete until the PR is created and ready for review.
